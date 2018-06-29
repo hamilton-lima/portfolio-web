@@ -1,12 +1,12 @@
-<div *ngIf="! theme ">Loading</div>
+<div *ngIf="!theme">Loading</div>
 
 <div *ngIf="theme">
   <h1>{{ person.name }}</h1>
   <p>{{ person.about }}</p>
   <hr>
   <span class="person-link" *ngFor="let link of person.links">
-    <a href="{{ link.url }}">
-      <fa size="{{ theme.siteLink.size }}" name="{{ link.type }}"></fa>
+    <a href="{{ link.url }}" target="_blank">
+      <fa class="person-link-icon" [style.color]="theme.siteLink.color" size="{{ theme.siteLink.size }}" name="{{ link.type }}"></fa>
     </a>
   </span>
 </div>
