@@ -1,4 +1,5 @@
 {
+    "avatarBorderRadius": "50%",
     "siteLink": {
         "size": "2x",
         "color": "palevioletred"

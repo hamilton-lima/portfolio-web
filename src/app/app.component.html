@@ -1,6 +1,7 @@
 <div *ngIf="!theme">Loading</div>
 
 <div *ngIf="theme">
+  <img src="{{ person.avatar }}" [style.borderRadius]="theme.avatarBorderRadius"/>
   <h1>{{ person.name }}</h1>
   <p>{{ person.about }}</p>
   <hr>
