@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Theme } from './models/theme';
 import { PortfolioService } from './portfolio.service';
 import { Person } from './models/person';
+import { Project } from './models/project';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +12,7 @@ import { Person } from './models/person';
 export class AppComponent implements OnInit {
   theme: Theme;
   person: Person;
+  projects: Project[];
 
   constructor(private service: PortfolioService) {}
 
@@ -22,9 +24,13 @@ export class AppComponent implements OnInit {
     this.service.getPerson().subscribe((person: Person) => {
       this.person = person;
     });
+    
+    this.service.getProjects().subscribe((projects: Project[]) => {
+      this.projects = projects;
+    });
   }
 
   ready(){
-    return (this.theme && this.person);
+    return (this.theme && this.person && this.projects);
   }
 }
