@@ -30,6 +30,16 @@ export class AppComponent implements OnInit {
     });
   }
 
+  getTags(){
+    const tags: Set<string> = new Set<string>();
+    this.projects.forEach( (project)=>{
+      project.tags.forEach((tag)=>{
+        tags.add(tag);
+      })
+    });
+    return tags;
+  }
+
   ready(){
     return (this.theme && this.person && this.projects);
   }
