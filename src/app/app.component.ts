@@ -1,7 +1,7 @@
-import { PortfolioService } from './person.service';
 import { Component, OnInit } from '@angular/core';
-import { Person } from './person';
-import { Theme, SiteLink } from './theme';
+import { Theme } from './models/theme';
+import { PortfolioService } from './portfolio.service';
+import { Person } from './models/person';
 
 @Component({
   selector: 'app-root',
@@ -9,23 +9,22 @@ import { Theme, SiteLink } from './theme';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  person: Person;
   theme: Theme;
+  person: Person;
 
-  constructor(private service: PortfolioService) {
-    // this.person = new Person();
-    // this.theme = new Theme();
-    // this.theme.siteLink = new SiteLink();
-  }
+  constructor(private service: PortfolioService) {}
 
   ngOnInit(): void {
+    this.service.getTheme().subscribe((theme: Theme) => {
+      this.theme = theme;
+    });
+
     this.service.getPerson().subscribe((person: Person) => {
       this.person = person;
     });
+  }
 
-    this.service.getTheme().subscribe((theme: Theme) => {
-      this.theme = theme;
-      console.log('theme ', theme);
-    });
+  ready(){
+    return (this.theme && this.person);
   }
 }

@@ -1,3 +1,6 @@
+import { SharedModule } from './shared/shared.module';
+import { ProjectsModule } from './projects/projects.module';
+import { PersonModule } from './person/person.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
@@ -11,10 +14,9 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     AppComponent
   ],
   imports: [
-    BrowserModule,
-    CommonModule,
-    HttpClientModule,
-    AngularFontAwesomeModule
+    SharedModule,
+    PersonModule,
+    ProjectsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
