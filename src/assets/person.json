@@ -15,6 +15,11 @@
       {
         "type": "linkedin",
         "url": "https://www.linkedin.com/feed/"
+      },
+      {
+        "type": "heart",
+        "title": "Talk to me",
+        "url": "https://www.linkedin.com/feed/"
       }
   ]
 }

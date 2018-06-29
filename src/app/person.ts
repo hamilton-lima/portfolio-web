@@ -6,6 +6,7 @@ export class Person {
 }
 
 export class Site {
+    title: string;
     type: string;
     url: string;
 }
