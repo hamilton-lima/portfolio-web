@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { SiteLinkComponent } from './site-link/site-link.component';
 
 @NgModule({
   imports: [
@@ -11,12 +12,13 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     HttpClientModule,
     AngularFontAwesomeModule
   ],
-  declarations: [],
+  declarations: [SiteLinkComponent],
   exports: [
     CommonModule,
     BrowserModule,
     HttpClientModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    SiteLinkComponent
   ]
 })
 export class SharedModule {}

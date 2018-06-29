@@ -1,3 +1,14 @@
-<span *ngFor="let project of projects">
-  {{ project.title }}<br>
-</span>
+<div class="card-columns">
+  <div *ngFor="let project of projects">
+    <div class="card">
+      <img class="card-img-top img-fluid" src="{{ project.image }}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{ project.title }}</h5>
+        <p class="card-text"> {{ project.description }}</p>
+        <span *ngFor="let link of project.links">
+          <app-site-link [theme]="theme" [link]="link"></app-site-link>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
