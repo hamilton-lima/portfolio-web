@@ -1,7 +1,12 @@
-<h1>{{ person.name }}</h1>
-<p>{{ person.about }}</p>
-<hr>
-<p *ngFor="let link of person.links">
-  <a href="{{ link.url }}">{{ link.type }}</a>
-  <br>
-</p>
+<div *ngIf="! theme ">Loading</div>
+
+<div *ngIf="theme">
+  <h1>{{ person.name }}</h1>
+  <p>{{ person.about }}</p>
+  <hr>
+  <span class="person-link" *ngFor="let link of person.links">
+    <a href="{{ link.url }}">
+      <fa size="{{ theme.siteLink.size }}" name="{{ link.type }}"></fa>
+    </a>
+  </span>
+</div>
