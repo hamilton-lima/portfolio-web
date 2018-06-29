@@ -1,7 +1,9 @@
-<div *ngIf="!ready()">Loading</div>
+<div class="container">
+  <div *ngIf="!ready()">Loading</div>
 
-<div *ngIf="ready()">
-  <app-person [theme]="theme" [person]="person"></app-person>
-  <hr>
-  <app-projects [theme]="theme" [projects]="projects"></app-projects>
+  <div *ngIf="ready()">
+    <app-person [theme]="theme" [person]="person"></app-person>
+    <hr>
+    <app-projects [theme]="theme" [projects]="projects"></app-projects>
+  </div>
 </div>
