@@ -2,8 +2,13 @@
   <div *ngIf="!ready()">Loading</div>
 
   <div *ngIf="ready()">
-    <app-person [theme]="theme" [person]="person"></app-person>
-    <hr>
-    <app-projects [theme]="theme" [projects]="projects"></app-projects>
+    <div class="row">
+      <div class="col-3">
+          <app-person [theme]="theme" [person]="person"></app-person>
+      </div>
+      <div class="col-9 projects-wrapper">
+          <app-projects [theme]="theme" [projects]="projects"></app-projects>
+      </div>
+    </div>
   </div>
 </div>
