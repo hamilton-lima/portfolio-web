@@ -14,4 +14,15 @@ export class ProjectsComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  getTagColor(tag: string) {
+    const found = this.theme.tagColors.find(tagColor => {
+      return tagColor.tag == tag;
+    });
+    
+    if (found) {
+      return found.color;
+    }
+    return '';
+  }
 }

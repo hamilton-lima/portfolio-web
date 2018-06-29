@@ -1,7 +1,11 @@
 {
-    "avatarBorderRadius": "50%",
-    "siteLink": {
-        "size": "2x",
-        "color": "palevioletred"
-    }
+  "avatarBorderRadius": "50%",
+  "siteLink": {
+    "size": "2x",
+    "color": "palevioletred"
+  },
+  "tagColors": [
+    { "tag": "foo", "color": "green" },
+    { "tag": "super", "color": "red" }
+  ]
 }

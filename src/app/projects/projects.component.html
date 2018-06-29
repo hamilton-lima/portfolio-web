@@ -9,6 +9,11 @@
           <app-site-link [theme]="theme" [link]="link"></app-site-link>
         </span>
       </div>
+      <div class="card-footer text-right">
+        <span class="project-tag" *ngFor="let tag of project.tags">
+          <span class="badge badge-info" [style.backgroundColor]="getTagColor(tag)">{{tag}}</span>
+        </span>
+      </div>
     </div>
   </div>
 </div>
