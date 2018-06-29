@@ -12,7 +12,8 @@ import { Project } from './models/project';
 export class AppComponent implements OnInit {
   theme: Theme;
   person: Person;
-  projects: Project[];
+  projects: Project[];  
+  filteredProjects: Project[];
 
   constructor(private service: PortfolioService) {}
 
@@ -27,6 +28,7 @@ export class AppComponent implements OnInit {
     
     this.service.getProjects().subscribe((projects: Project[]) => {
       this.projects = projects;
+      this.filteredProjects = projects.map( value => value );
     });
   }
 
@@ -38,6 +40,12 @@ export class AppComponent implements OnInit {
       })
     });
     return tags;
+  }
+
+  filter(filter:string){
+    this.filteredProjects = this.projects.filter( (project) =>{
+      return project.tags.find( tag => tag == filter);
+    });
   }
 
   ready(){
