@@ -10,6 +10,9 @@
         </span>
       </div>
       <div class="card-footer text-right">
+        <app-date-range [start]="project.startDate" [end]="project.endDate" 
+        [company]="project.company"></app-date-range>
+        
         <span class="project-tag" *ngFor="let tag of project.tags">
           <span class="badge badge-info" [style.backgroundColor]="getTagColor(tag)">{{tag}}</span>
         </span>

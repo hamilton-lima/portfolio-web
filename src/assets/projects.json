@@ -12,8 +12,8 @@
       }
     ],
     "tags": ["foo", "bar", "super"],
-    "startYear": "2000",
-    "endYear": "2018",
+    "startDate": "Jan 1, 2015",
+    "endDate": "Feb 1, 2018",
     "company": "Overthere"
   },
   {
@@ -28,8 +28,8 @@
       }
     ],
     "tags": ["foo", "bar"],
-    "startYear": "2000",
-    "endYear": "2018",
+    "startDate": "Jan 1, 2018",
+    "endDate": "Feb 1, 2018",
     "company": "Overthere"
   },
   {
@@ -44,8 +44,8 @@
       }
     ],
     "tags": ["foo", "bar"],
-    "startYear": "2000",
-    "endYear": "2018",
+    "startDate": "Jan 1, 2018",
+    "endDate": "Feb 1, 2018",
     "company": "Overthere"
   },
   {
@@ -59,24 +59,8 @@
       }
     ],
     "tags": ["foo", "bar"],
-    "startYear": "2000",
-    "endYear": "2018",
-    "company": "Overthere"
-  },
-  {
-    "title": "Project1",
-    "image": "https://placeimg.com/160/180/animals",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing",
-    "links": [
-      {
-        "type": "heart",
-        "title": "Talk to me",
-        "url": "https://www.linkedin.com/feed/"
-      }
-    ],
-    "tags": ["foo", "bar"],
-    "startYear": "2000",
-    "endYear": "2018",
+    "startDate": "Jan 1, 2018",
+    "endDate": "Feb 1, 2018",
     "company": "Overthere"
   },
   {
@@ -91,8 +75,24 @@
       }
     ],
     "tags": ["foo", "bar"],
-    "startYear": "2000",
-    "endYear": "2018",
+    "startDate": "Jan 1, 2018",
+    "endDate": "Feb 1, 2018",
+    "company": "Overthere"
+  },
+  {
+    "title": "Project1",
+    "image": "https://placeimg.com/160/180/animals",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing",
+    "links": [
+      {
+        "type": "heart",
+        "title": "Talk to me",
+        "url": "https://www.linkedin.com/feed/"
+      }
+    ],
+    "tags": ["foo", "bar"],
+    "startDate": "Jan 1, 2018",
+    "endDate": "Feb 1, 2018",
     "company": "Overthere"
   },
   {
@@ -110,8 +110,7 @@
       }
     ],
     "tags": ["foo", "bar"],
-    "startYear": "2000",
-    "endYear": "2018",
+    "startDate": "Jan 1, 2018",
     "company": "Overthere"
   },
   {
@@ -128,9 +127,6 @@
         "url": "https://www.linkedin.com/feed/"
       }
     ],
-    "tags": ["foo", "orange", "super"],
-    "startYear": "2000",
-    "endYear": "2018",
-    "company": "Overthere"
+    "tags": ["foo", "orange", "super"]
   }
 ]

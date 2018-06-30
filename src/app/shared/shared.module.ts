@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { SiteLinkComponent } from './site-link/site-link.component';
+import { DateRangeComponent } from './date-range/date-range.component';
 
 @NgModule({
   imports: [
@@ -12,13 +13,14 @@ import { SiteLinkComponent } from './site-link/site-link.component';
     HttpClientModule,
     AngularFontAwesomeModule
   ],
-  declarations: [SiteLinkComponent],
+  declarations: [SiteLinkComponent, DateRangeComponent],
   exports: [
     CommonModule,
     BrowserModule,
     HttpClientModule,
     AngularFontAwesomeModule,
-    SiteLinkComponent
+    SiteLinkComponent,
+    DateRangeComponent
   ]
 })
 export class SharedModule {}

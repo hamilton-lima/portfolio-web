@@ -6,7 +6,7 @@ export class Project {
     description: string;
     links: Site[];
     tags: string[];
-    startYear: string;
-    endYear: string;
+    startDate: Date;
+    endDate: Date;
     company: string;
 }
