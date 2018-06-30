@@ -1,18 +1,17 @@
 <div class="container">
   <div *ngIf="!ready()">Loading</div>
 
-  <div *ngIf="ready()">
+  <div *ngIf="ready()" [style.fontFamily]="theme.font.family">
     <div class="row">
       <div class="col-3">
-          <app-person [theme]="theme" [person]="person"></app-person>
-          <hr>
-          <button class="btn btn-outline-info btn-sm tag-button" 
-          (click)="filter(tag)" *ngFor="let tag of getTags()">
-            {{ tag }}
-          </button>
+        <app-person [theme]="theme" [person]="person"></app-person>
+        <hr>
+        <button class="btn btn-outline-info btn-sm tag-button" (click)="filter(tag)" *ngFor="let tag of getTags()">
+          {{ tag }}
+        </button>
       </div>
       <div class="col-9 projects-wrapper">
-          <app-projects [theme]="theme" [projects]="filteredProjects"></app-projects>
+        <app-projects [theme]="theme" [projects]="filteredProjects"></app-projects>
       </div>
     </div>
   </div>

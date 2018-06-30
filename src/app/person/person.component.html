@@ -1,6 +1,6 @@
 <div class="text-center">
   <img src="{{ person.avatar }}" [style.borderRadius]="theme.avatarBorderRadius" />
-  <h1>{{ person.name }}</h1>
+  <h1 [style.fontFamily]="theme.fontPersonName.family">{{ person.name }}</h1>
 </div>
 
 <div class="text-justify">

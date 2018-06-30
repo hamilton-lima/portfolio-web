@@ -1,6 +1,6 @@
-import { SiteLink } from './../../models/sitelink';
 import { Component, OnInit, Input } from '@angular/core';
 import { Theme } from '../../models/theme';
+import { Site } from '../../models/site';
 
 @Component({
   selector: 'app-site-link',
@@ -8,7 +8,7 @@ import { Theme } from '../../models/theme';
   styleUrls: ['./site-link.component.css']
 })
 export class SiteLinkComponent implements OnInit {
-  @Input() link: SiteLink;
+  @Input() link: Site;
   @Input() theme: Theme;
   
   constructor() { }
