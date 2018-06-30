@@ -2,7 +2,7 @@
   "avatarBorderRadius": "50%",
   "siteLink": {
     "size": "2x",
-    "color": "palevioletred"
+    "color": "black"
   },
   "tagColors": [{ "tag": "super", "color": "red" }],
   "font": {

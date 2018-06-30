@@ -9,6 +9,9 @@ else
     SITENAME=$1
 fi
 
+echo Updating index.html
+./node_modules/.bin/handlebars $SITENAME/person.json < src/index.hbs > src/index.html
+
 echo Copying files from $SITENAME
 
 set -e
