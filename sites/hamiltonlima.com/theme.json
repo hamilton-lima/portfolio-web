@@ -1,0 +1,14 @@
+{
+  "avatarBorderRadius": "50%",
+  "siteLink": {
+    "size": "2x",
+    "color": "palevioletred"
+  },
+  "tagColors": [{ "tag": "super", "color": "red" }],
+  "font": {
+    "family": "Lato"
+  },
+  "fontPersonName": {
+    "family": "Lato"
+  }
+}
