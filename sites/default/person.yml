@@ -7,4 +7,5 @@ about: >
   the only person to win a Nobel Prize in two different sciences.
 links:
   - {type: heart, url: https://en.wikipedia.org/wiki/Marie_Curie}
-  - {type: twitter, url: https://twitter.com/mscactions?lang=en}
+  - {type: [fab, twitter], url: https://twitter.com/mscactions?lang=en}
+  - {title: My Researches, url: https://gizmodo.com/marie-curies-100-year-old-notebook-is-still-too-radioac-1615847891}

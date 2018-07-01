@@ -4,6 +4,7 @@ siteLink:
   color: green
 tagColors:
   - {tag: super, color: red}
+  - {tag: orange, color: #f49e42}
 font:
   family: Lato
 fontPersonName:

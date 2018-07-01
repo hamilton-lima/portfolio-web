@@ -61,7 +61,7 @@
   title: My hands
   image: https://placeimg.com/160/280/animals
   description: Lorem ipsum dolor sit amet, consectetur adipiscing
-  links: [{type: github, url: https://www.linkedin.com/feed/}, {type: desktop, url: https://www.linkedin.com/feed/}]
+  links: [{type: [fab, github], url: https://www.linkedin.com/feed/}, {type: desktop, url: https://www.linkedin.com/feed/}]
   tags: [foo, bar]
   startDate: Jan 1, 2018
   company: Overthere
@@ -70,6 +70,6 @@
   image: https://placeimg.com/160/280/animals
   description: Lorem ipsum dolor sit amet, consectetur adipiscing
   links: [
-    {type: github, url: https://www.linkedin.com/feed/}, 
+    {type: [fab, github], url: https://www.linkedin.com/feed/}, 
     {type: desktop, url: https://www.linkedin.com/feed/}]
   tags: [foo, orange, super]
