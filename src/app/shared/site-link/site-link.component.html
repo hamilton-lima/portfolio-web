@@ -1,6 +1,9 @@
 <span class="site-link">
   <a href="{{ link.url }}" target="_blank">
-    <fa *ngIf="link.type" class="link-icon" [style.color]="theme.siteLink.color" size="{{ theme.siteLink.size }}" name="{{ link.type }}"></fa>
-    <span *ngIf="link.title">{{ link.title }}</span>
+      <fa-icon *ngIf="link.type" class="link-icon" 
+      [style.color]="theme.siteLink.color" 
+      [icon]="link.type"
+      [size]="theme.siteLink.size"></fa-icon>
+    <span class="site-link-title" *ngIf="link.title">{{ link.title }}</span>
   </a>
 </span>

@@ -6,12 +6,20 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { SiteLinkComponent } from './site-link/site-link.component';
 import { DateRangeComponent } from './date-range/date-range.component';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
+library.add(fas, far, fab);
+
 @NgModule({
   imports: [
     CommonModule,
     BrowserModule,
     HttpClientModule,
-    AngularFontAwesomeModule
+    FontAwesomeModule
   ],
   declarations: [SiteLinkComponent, DateRangeComponent],
   exports: [
@@ -20,7 +28,8 @@ import { DateRangeComponent } from './date-range/date-range.component';
     HttpClientModule,
     AngularFontAwesomeModule,
     SiteLinkComponent,
-    DateRangeComponent
+    DateRangeComponent,
+    FontAwesomeModule
   ]
 })
 export class SharedModule {}

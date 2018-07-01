@@ -1,1 +1,19 @@
-{"name":"Marie Curie","avatar":"https://upload.wikimedia.org/wikipedia/commons/7/7e/Marie_Curie_c1920.jpg","about":"Physicist and chemist who conducted pioneering research on radioactivity.  The first woman to win a Nobel Prize,  The first person and only woman to win twice,  the only person to win a Nobel Prize in two different sciences.\n","links":[{"type":"heart","url":"https://en.wikipedia.org/wiki/Marie_Curie"},{"type":"twitter","url":"https://twitter.com/mscactions?lang=en"}]}
+{
+  "name": "Marie Curie",
+  "avatar":
+    "https://upload.wikimedia.org/wikipedia/commons/7/7e/Marie_Curie_c1920.jpg",
+  "about":
+    "Physicist and chemist who conducted pioneering research on radioactivity.  The first woman to win a Nobel Prize,  The first person and only woman to win twice,  the only person to win a Nobel Prize in two different sciences.\n",
+  "links": [
+    { "type": "heart", "url": "https://en.wikipedia.org/wiki/Marie_Curie" },
+    {
+      "type": ["fab", "twitter"],
+      "url": "https://twitter.com/mscactions?lang=en"
+    },
+    {   "type": "handshake",
+      "title": "My Researches",
+      "url":
+        "https://gizmodo.com/marie-curies-100-year-old-notebook-is-still-too-radioac-1615847891"
+    }
+  ]
+}
