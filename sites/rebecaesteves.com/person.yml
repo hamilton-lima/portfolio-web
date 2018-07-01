@@ -1,12 +1,11 @@
-name: Hamilton Lima
-avatar: https://secure.gravatar.com/avatar/7bd994a4987dc55b10652ef109439fc6
+name: Marie Curie
+avatar: https://upload.wikimedia.org/wikipedia/commons/7/7e/Marie_Curie_c1920.jpg
 about: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Etiam sem metus, efficitur non risus a, volutpat condimentum tellus.
-    Mauris sit amet libero tincidunt dolor hendrerit bibendum a ut erat. 
-    Nullam ullamcorper porttitor nisl, rhoncus efficitur nisl. 
-    Pellentesque eu leo id augue consectetur viverra sed vel dui.
+  Physicist and chemist who conducted pioneering research on radioactivity. 
+  The first woman to win a Nobel Prize, 
+  The first person and only woman to win twice, 
+  the only person to win a Nobel Prize in two different sciences.
 links:
-  - {type: instagram, url: https://www.instagram.com/?hl=en}
+  - {type: wikipedia, url: https://en.wikipedia.org/wiki/Marie_Curie}
   - {type: pinterest-square, url: https://www.pinterest.ca/tlmtees/5k-logos}
   - {type: linkedin, url: https://www.linkedin.com/feed/}
