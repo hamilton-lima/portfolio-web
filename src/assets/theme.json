@@ -1,14 +1,1 @@
-{
-  "avatarBorderRadius": "50%",
-  "siteLink": {
-    "size": "2x",
-    "color": "black"
-  },
-  "tagColors": [{ "tag": "super", "color": "red" }],
-  "font": {
-    "family": "Lato"
-  },
-  "fontPersonName": {
-    "family": "Lato"
-  }
-}
+{"avatarBorderRadius":"50%","siteLink":{"size":"2x","color":"black"},"tagColors":[{"tag":"super","color":"red"}],"font":{"family":"Lato"},"fontPersonName":{"family":"Lato"}}
