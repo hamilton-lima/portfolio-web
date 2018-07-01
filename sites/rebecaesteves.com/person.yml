@@ -1,0 +1,12 @@
+name: Hamilton Lima
+avatar: https://secure.gravatar.com/avatar/7bd994a4987dc55b10652ef109439fc6
+about: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Etiam sem metus, efficitur non risus a, volutpat condimentum tellus.
+    Mauris sit amet libero tincidunt dolor hendrerit bibendum a ut erat. 
+    Nullam ullamcorper porttitor nisl, rhoncus efficitur nisl. 
+    Pellentesque eu leo id augue consectetur viverra sed vel dui.
+links:
+  - {type: instagram, url: https://www.instagram.com/?hl=en}
+  - {type: pinterest-square, url: https://www.pinterest.ca/tlmtees/5k-logos}
+  - {type: linkedin, url: https://www.linkedin.com/feed/}
