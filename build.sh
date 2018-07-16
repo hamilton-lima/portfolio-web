@@ -16,9 +16,6 @@ if [[ $NODEMODULE_FILES -eq 0 ]]; then
      npm install
 fi
 
-echo Updating index.html
-./node_modules/.bin/handlebars $SITENAME/person.json < src/index.hbs > src/index.html
-
 echo Copying favicon.ico from $SITENAME
 cp $SITENAME/favicon.ico src/
 
@@ -30,6 +27,9 @@ echo Generating person.json from $SITENAME/person.yml
 
 echo Generating projects.json from $SITENAME/projects.yml
 ./node_modules/.bin/yaml2json $SITENAME/projects.yml > src/assets/projects.json
+
+echo Updating index.html
+./node_modules/.bin/handlebars src/assets/person.json < src/index.hbs > src/index.html
 
 echo Building the Angular web application to dist/portfolio-web
 ng build --aot --extract-css=true --build-optimizer=true --vendor-chunk=true --prod
