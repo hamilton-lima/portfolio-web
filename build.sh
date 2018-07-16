@@ -32,7 +32,7 @@ echo Generating projects.json from $SITENAME/projects.yml
 ./node_modules/.bin/yaml2json $SITENAME/projects.yml > src/assets/projects.json
 
 echo Building the Angular web application to dist/portfolio-web
-ng build --prod
+ng build --aot --extract-css=true --build-optimizer=true --vendor-chunk=true --prod
 
 echo 
 ./node_modules/.bin/vaca
