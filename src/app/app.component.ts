@@ -14,6 +14,7 @@ export class AppComponent implements OnInit {
   person: Person;
   projects: Project[];  
   filteredProjects: Project[];
+  filter: string;
 
   constructor(private service: PortfolioService) {}
 
@@ -42,7 +43,8 @@ export class AppComponent implements OnInit {
     return tags;
   }
 
-  filter(filter:string){
+  filterProjects(filter:string){
+    this.filter = filter;
     this.filteredProjects = this.projects.filter( (project) =>{
       return project.tags.find( tag => tag == filter);
     });

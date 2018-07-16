@@ -6,7 +6,7 @@
       <div class="col-3">
         <app-person [theme]="theme" [person]="person"></app-person>
         <hr>
-        <button class="btn btn-outline-info btn-sm tag-button" (click)="filter(tag)" *ngFor="let tag of getTags()">
+        <button [ngClass]="{'active': tag == filter }" class="btn btn-outline-info btn-sm tag-button" (click)="filterProjects(tag)" *ngFor="let tag of getTags()">
           {{ tag }}
         </button>
       </div>
