@@ -1,7 +1,7 @@
 avatarBorderRadius: 50%
 siteLink:
   size: 2x
-  color: green
+  color: "#DE98B2"
 tagColors:
   - {tag: super, color: red}
 font:

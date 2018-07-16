@@ -1,75 +1,135 @@
 -
-  title: Project1
-  image: https://placeimg.com/160/380/animals
+  title: Trabalho de conclusão de curso
+  image: https://drive.google.com/uc?id=1lYfRlFI-Dewd51Oqfs7_b1WtT9Fqz6Ls
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Etiam sem metus, efficitur non risus a, volutpat condimentum tellus.
-    Mauris sit amet libero tincidunt dolor hendrerit bibendum a ut erat. 
-    Nullam ullamcorper porttitor nisl, rhoncus efficitur nisl. 
-    Pellentesque eu leo id augue consectetur viverra sed vel dui.
-  links: [{type: heart, title: Talk to me, url: https://www.linkedin.com/feed/}]
-  tags: [foo, bar, super]
-  startDate: Jan 1, 2015
-  endDate: Feb 1, 2018
-  company: Overthere
+    Em meu projeto de conclusão de curso idealizei uma coleção de peças 
+    brinquedo que seria aplicada na marca bb básico. A coleção foi inspirada 
+    no poema de Cecília Meireles "Ou isto ou aquilo" que foi de grande 
+    importância em minha infância.
+  links: [{type: [fab, chrome], url: https://docs.google.com/presentation/d/1rWWxSO2WLZJpKi7BobAyhQn-ZO-HG8glZpJUvhXyLk4/edit?usp=sharing}]
+  tags: [moda, criança, tcc]
+  startDate: Aug 1, 2016
+  endDate: Jun 1, 2017
+  company: SENAI
 -
-  title: Project2
-  image: https://placeimg.com/160/180/animals
-  description: Nothing to talk about it
-  links: [{type: heart, title: Talk to me, url: https://www.linkedin.com/feed/}]
-  tags: [foo, bar]
-  startDate: Jan 1, 2018
-  endDate: Feb 1, 2018
-  company: Overthere
+  title: Pesquisa de mercado projeto Peças Brinquedo para BB básico
+  image: https://drive.google.com/uc?id=1FTknG6DcpmhURAqiP94TMAG_SgmCt8MV
+  description: >
+    Na primeira etapa do meu Tcc realizei pesquisas sobre a marca, 
+    sobre o público alvo, sobre as marcas concorrentes e pesquisa de imagens 
+    referência para o tipo de produto que queria criar.
+  links: [{type: [fab, chrome], url: https://drive.google.com/open?id=1fOeaZQR6ws5J_1BC23m6bLMs06n7cll1}]
+  tags: [moda, criança, pesquisa, tcc]
+  startDate: Aug 1, 2016
+  endDate: Jun 1, 2017
+  company: SENAI
 -
-  title: Project3
-  image: https://placeimg.com/640/480/animals
-  description: Nothing to talk about it
-  links: [{type: grin-stars, title: Wherever, url: https://www.linkedin.com/feed/}]
-  tags: [foo, bar]
-  startDate: Jan 1, 2018
-  endDate: Feb 1, 2018
-  company: Overthere
+  title: Produção das Peças Brinquedo para BB básico
+  image: https://drive.google.com/uc?id=1YnqqRCLfDn0REQIORTmUM49sIPyJJNXp
+  description: >
+    Para criar as peças fiz um "brainstorming" com imagens referentes a modelagem, 
+    cores, e elementos retirados do poema "Ou isto ou aquilo" de Cecília Meireles. 
+    A partir disso, criei as peças ressaltando pontos como modelagem confortável 
+    para as crianças, cores primárias já usadas na marca escolhida, 
+    e a função lúdica em cada peça.
+    Depois de criadas as peças, criei os desenhos técnicos e fichas técnicas de cada peça. 
+    Construi 3 protótipos, cada um em um tamanho diferente. 
+    Comprei o tecido, fiz as modelagens planas em papel manteiga, 
+    cortei os tecidos, e por fim costurei as partes.
+
+  links: [{type: folder-open, url: https://drive.google.com/open?id=18P15NMBdrgxG6uF_Mjla5_vuJ2zXKVaQ}]
+  tags: [moda, criança, produção, tcc]
+  startDate: Aug 1, 2016
+  endDate: Jun 1, 2017
+  company: SENAI
 -
-  title: Project4
-  image: https://placeimg.com/160/180/animals
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing
-  links: [{title: Talk to me, url: https://www.linkedin.com/feed/}]
-  tags: [foo, bar]
-  startDate: Jan 1, 2018
-  endDate: Feb 1, 2018
-  company: Overthere
--
-  title: Project5
-  image: https://placeimg.com/160/180/animals
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing
-  links: [{type: heart, title: Talk to me, url: https://www.linkedin.com/feed/}]
-  tags: [foo, bar]
-  startDate: Jan 1, 2018
-  endDate: Feb 1, 2018
-  company: Overthere
--
-  title: Project6
-  image: https://placeimg.com/160/180/animals
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing
-  links: [{type: heart, title: Talk to me, url: https://www.linkedin.com/feed/}]
-  tags: [foo, bar]
-  startDate: Jan 1, 2018
-  endDate: Feb 1, 2018
-  company: Overthere
--
-  title: My hands
-  image: https://placeimg.com/160/280/animals
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing
-  links: [{type: github, url: https://www.linkedin.com/feed/}, {type: desktop, url: https://www.linkedin.com/feed/}]
-  tags: [foo, bar]
-  startDate: Jan 1, 2018
-  company: Overthere
--
-  title: My hands (2)
-  image: https://placeimg.com/160/280/animals
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing
-  links: [
-    {type: github, url: https://www.linkedin.com/feed/}, 
-    {type: desktop, url: https://www.linkedin.com/feed/}]
-  tags: [foo, orange, super]
+  title: Editorial das Peças Brinquedo para BB básico
+  image: https://drive.google.com/uc?id=1XfDpWBosPeCA_6EMeSqY4s3n8FH7NM8d
+  description: >
+    Depois das peças construídas fiz um editorial com 3 crianças convidadas, 
+    em um ambiente que elas pudessem brincar e testar as funções das peças. 
+  links: [{type: [fab, chrome], url: https://docs.google.com/presentation/d/1rWWxSO2WLZJpKi7BobAyhQn-ZO-HG8glZpJUvhXyLk4/edit?usp=sharing}]
+  tags: [moda, criança, editorial, tcc]
+  startDate: Aug 1, 2016
+  endDate: Jun 1, 2017
+  company: SENAI
+- 
+  title: Estágio na Karibu
+  image: https://drive.google.com/uc?id=1jBZ2N_vX09a8owcOGeXWExYtTrhE-utq
+  description: >
+    Participação na criação das peças, fichas técnicas, 
+    ajustes de peças piloto para a marca Karibu
+  links: 
+    - {type: [fab, instagram], url: https://www.instagram.com/hellokaribu/ }
+    - {type: [fab, chrome], url: https://hellokaribu.com/ }
+    
+  tags: [moda, estágio, social]
+  startDate: Sep 1, 2017
+  endDate: Oct 1, 2017
+  company: Karibu
+- 
+  title: Voluntária no ROM
+  image: https://drive.google.com/uc?id=1Ljhxni2qtz9WUuQMC5XyZV7Wj5uslaqe
+  description: >
+    Fui voluntária no 'summer camp' do 'royal ontario museum', em Toronto, 
+    no Canadá. Meu trabalho foi dar suporte aos professores, assistentes e 
+    alunos de 5 a 14 anos em trabalhos manuais, em visitas as galerias do museu, 
+    aulas e refeições no parque anexo ao museu. 
+  links: 
+    - {type: [fab, chrome], url: https://www.rom.on.ca/en/whats-on/summer-club }
+    
+  tags: [moda, voluntária, criança]
+  startDate: Jul 1, 2018
+  endDate: Aug 1, 2018
+  company: ROM, Toronto, Canadá
+- 
+  title: Vendedora TACO
+  image: https://drive.google.com/uc?id=1UtqAIdwmdNM_lrxvIrDjpJ9XQrjYx4O7
+  description: >
+    Vendedora na empresa Taco pelo periodo de natal.
+  links:     
+  tags: [moda, vendedora]
+  startDate: Nov 15, 2015
+  endDate: Jan 15, 2016
+  company: Taco
+- 
+  title: TCC Conceitual
+  image: https://drive.google.com/uc?id=1emkStm4me_9PttemriLEl7GNG856IzXu
+  description: >
+    Peças conceito criadas para inspiração da coleção do meu trabalho de 
+    conclusão de curso, cujo o tema foi o poema de cecília meireles 
+    "Ou isto ou aquilo".  Foram usados materiais alternativos, 
+    como algodão, giz pastel para tecidos, tela em 2 tons de azul e branco, 
+    e e.v.a. para confeccionar o carimbo da estampa de aviões.
+  tags: [moda, tcc, conceitual]
+  startDate: Feb 1, 2017
+  endDate: Jun 1, 2017
+  company: SENAI
+- 
+  title: Projeto para Sacada 
+  image: https://drive.google.com/uc?id=1mBH8_llVl_WXCRqUgdeIKpCSsHHUqDOi
+  description: >
+    Na matéria projeto indústria eu e meu grupo botamos em prática muitas matérias 
+    que aprendemos ao longo do curso nesse projeto. Pesquisamos sobre uma marca 
+    escolhida pela professora - Sacada, marca carioca do segmento feminino, 
+    definimos concorrentes, descobrimos as necessidades da marca, 
+    e de seus consumidores, e finalmente criamos uma peça conceito e uma coleção.
+
+  tags: [moda, projeto]
+  startDate: Feb 1, 2015
+  endDate: Jun 1, 2015
+  company: SENAI
+- 
+  title: Vestido de 3 anos da Julia
+  image: https://drive.google.com/uc?id=1ARgkaS_faF1Z7V3l6G60kjK7y_It4MPk
+  description: >
+    Vestido que fiz sob encomenda para a pequena Julia no seu aniversário de 3 anos.
+     O tema foi piquenique, então desenvolvi a partir disso um vestido com as costas 
+     abertas, com tecido referente a uma toalha de piquenique e acrescentei 
+     passamanarias de pompom na barra. Neste projeto comprei o tecido, 
+     desenvolvi modelagem, cortei o tecido e costurei as partes. 
+
+  tags: [moda, projeto]
+  startDate: Mar 1, 2017
+  endDate: Mar 1, 2017
+  company: Pessoal
