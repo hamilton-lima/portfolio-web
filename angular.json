@@ -24,7 +24,8 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.css"
+              "node_modules/bootstrap/scss/bootstrap.scss",
+              "node_modules/bootstrap/scss/bootstrap-grid.scss"
             ],
             "scripts": []
           },
@@ -119,5 +120,10 @@
       }
     }
   },
-  "defaultProject": "portfolio-web"
+  "defaultProject": "portfolio-web",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
