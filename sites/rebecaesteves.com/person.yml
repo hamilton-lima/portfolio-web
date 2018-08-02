@@ -8,3 +8,4 @@ links:
   - {type: [fab, instagram], url: https://www.instagram.com/bordadosdabeca/ }
   - {type: [fab, pinterest], url: https://www.pinterest.ca/rebecaesteves/ }
   - {type: [fab, linkedin], url: https://www.linkedin.com/in/rebecaesteves/ }
+basehref: /

@@ -10,3 +10,4 @@ links:
   - {type: instagram, url: https://www.instagram.com/?hl=en}
   - {type: pinterest-square, url: https://www.pinterest.ca/tlmtees/5k-logos}
   - {type: linkedin, url: https://www.linkedin.com/feed/}
+basehref: /

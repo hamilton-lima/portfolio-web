@@ -1,5 +1,5 @@
-name: Rebeca Esteves
-avatar: http://gravatar.com/avatar/941aeb1327e949c3341a99ec5c084635?s=200
+name: Marie Curie
+avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Marie_Curie_c1920.jpg/220px-Marie_Curie_c1920.jpg
 about: >
   Physicist and chemist who conducted pioneering research on radioactivity. 
   The first woman to win a Nobel Prize, 
@@ -9,3 +9,4 @@ links:
   - {type: heart, url: https://en.wikipedia.org/wiki/Marie_Curie}
   - {type: [fab, twitter], url: https://twitter.com/mscactions?lang=en}
   - {title: My Researches, url: https://gizmodo.com/marie-curies-100-year-old-notebook-is-still-too-radioac-1615847891}
+basehref: /portfolio-web
