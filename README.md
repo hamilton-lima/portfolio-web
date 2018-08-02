@@ -4,7 +4,7 @@ This project generates an interactive portfolio website based on configuration f
 
 See here one example: https://hamilton-lima.github.io/portfolio-web/
 
-![screenshot](https://github.com/hamilton-lima/portfolio-web/raw/master/src/images/screenshot.png "Screenshot")
+![screenshot](https://raw.githubusercontent.com/hamilton-lima/portfolio-web/master/images/screenshot.png)
 
 ## Step by step
 
