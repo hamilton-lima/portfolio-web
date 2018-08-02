@@ -1,27 +1,20 @@
 # PortfolioWeb
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
+This project generates an interactive portfolio website based on configuration files.
 
-## Development server
+## Step by step
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- clone the project
+- copy the files from sites/default to your site folder
+- update person.yml with your personal information
+- update projects.yml with your projects
+- execute ./build.sh <folder with yuor files>
+- copy the content of dist/portfolio-web to your hosting
 
-## Code scaffolding
+## Tricks and tips
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- The build script will download any image that is defined for the avatar and in the projects, feel free to add public url, all the images will be saved to the final package
+- keep your avatar image at gravatar.com 
+- save temporary images in public google drive, and use the file id to create the public url of the image, https://drive.google.com/uc?id=[id goes here]
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Enjoy!
