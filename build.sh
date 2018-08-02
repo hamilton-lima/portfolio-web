@@ -16,9 +16,6 @@ if [[ $NODEMODULE_FILES -eq 0 ]]; then
      npm install
 fi
 
-echo Copying favicon.ico from $SITENAME
-cp $SITENAME/favicon.ico src/
-
 echo Generating theme.json from $SITENAME/theme.yml
 ./node_modules/.bin/yaml2json $SITENAME/theme.yml > src/assets/theme.json
 
