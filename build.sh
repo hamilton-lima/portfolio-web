@@ -31,9 +31,11 @@ echo Generating projects.json from $SITENAME/projects.yml
 echo Updating index.html
 ./node_modules/.bin/handlebars src/assets/person.json < src/index.hbs > src/index.html
 
+echo Downloading images 
+node download-images.js
+
 echo Building the Angular web application to dist/portfolio-web
 ng build --aot --extract-css=true --build-optimizer=true --vendor-chunk=true --prod
-
 
 echo 
 ./node_modules/.bin/vaca
