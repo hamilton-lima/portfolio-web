@@ -9,4 +9,4 @@ links:
   - {type: heart, url: https://en.wikipedia.org/wiki/Marie_Curie}
   - {type: [fab, twitter], url: https://twitter.com/mscactions?lang=en}
   - {title: My Researches, url: https://gizmodo.com/marie-curies-100-year-old-notebook-is-still-too-radioac-1615847891}
-basehref: /portfolio-web
+basehref: /portfolio-web/

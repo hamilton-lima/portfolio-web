@@ -2,7 +2,7 @@
 
 This project generates an interactive portfolio website based on configuration files.
 
-See hre one example: https://hamilton-lima.github.io/portfolio-web/
+See here one example: https://hamilton-lima.github.io/portfolio-web/
 
 ## Step by step
 
@@ -11,9 +11,8 @@ See hre one example: https://hamilton-lima.github.io/portfolio-web/
 - update person.yml with your personal information
 - if you are publishing the site as a github page make sure to update the basehref with the project name, see sites/default for example
 - update projects.yml with your projects
-- execute ./build.sh <folder with yuor files>
+- execute ./build.sh <folder with your files>
 - copy the content of dist/portfolio-web to your hosting
-
 
 ## Tricks and tips
 
@@ -21,4 +20,25 @@ See hre one example: https://hamilton-lima.github.io/portfolio-web/
 - keep your avatar image at gravatar.com 
 - save temporary images in public google drive, and use the file id to create the public url of the image, https://drive.google.com/uc?id=[id goes here]
 
-Enjoy!
+```
+
+
+                 (__)
+                 (oo)
+                  \/
+                  ||
+                  ||
+                  ||
+                  ||
+          /------- /
+         / |     ||
+        *  ||----||
+           ^^    ^^
+           Cowraffe
+
+
+The generated website is saved at the folder /dist/portfolio-web
+
+Have a dandy day.
+```
+
