@@ -2,14 +2,18 @@
 
 This project generates an interactive portfolio website based on configuration files.
 
+See hre one example: https://hamilton-lima.github.io/portfolio-web/
+
 ## Step by step
 
 - clone the project
 - copy the files from sites/default to your site folder
 - update person.yml with your personal information
+- if you are publishing the site as a github page make sure to update the basehref with the project name, see sites/default for example
 - update projects.yml with your projects
 - execute ./build.sh <folder with yuor files>
 - copy the content of dist/portfolio-web to your hosting
+
 
 ## Tricks and tips
 
