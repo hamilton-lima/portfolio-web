@@ -8,6 +8,7 @@ var projectsJson = "src/assets/projects.json";
 var avatarTargetfileUrl = "assets/avatar.png";
 var avatarTargetfile = "src/assets/avatar.png";
 var avatarTempfile = "temp/avatar.temp";
+var faviconFile = "src/assets/favicon.png";
 
 var person = JSON.parse(fs.readFileSync(personJson, "utf8"));
 downloadPerson(person);
@@ -24,15 +25,35 @@ function downloadPerson(person) {
       .then(({ filename, image }) => {
         console.log("File saved to", filename);
 
-        return sharp(filename)
+        sharp(filename)
           .resize(300)
           .png()
           .toFile(avatarTargetfile)
           .then(data => {
-            console.log('File converted to ', avatarTargetfile);
+            console.log("File converted to ", avatarTargetfile);
             person.avatar = avatarTargetfileUrl;
             fs.writeFileSync(personJson, JSON.stringify(person));
-            console.log(personJson, 'Updated with the new avatar url', avatarTargetfileUrl);
+            console.log(
+              personJson,
+              "Updated with the new avatar url",
+              avatarTargetfileUrl
+            );
+          })
+          .then(data => {
+            sharp(filename)
+              .resize(64)
+              .png()
+              .toFile(faviconFile)
+              .then(data => {
+                console.log(faviconFile, "Created from avatar");
+              })
+              .catch(err => {
+                console.error(
+                  "Error creating",
+                  faviconFile,
+                  JSON.stringify(err)
+                );
+              });
           })
           .catch(err => {
             console.error("Error converting avatar image", JSON.stringify(err));
@@ -42,6 +63,6 @@ function downloadPerson(person) {
         console.error(err);
       });
   } else {
-      console.log('Avatar image url is already local', person.avatar);
+    console.log("Avatar image url is already local", person.avatar);
   }
 }

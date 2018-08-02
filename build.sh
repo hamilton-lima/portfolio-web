@@ -34,6 +34,7 @@ echo Updating index.html
 echo Building the Angular web application to dist/portfolio-web
 ng build --aot --extract-css=true --build-optimizer=true --vendor-chunk=true --prod
 
+
 echo 
 ./node_modules/.bin/vaca
 echo
